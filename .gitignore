@@ -1,0 +1,7 @@
+frontend-react/node_modules/
+persistent-folder/
+.DS_STORE
+secrets/
+app/api-service/api/chat_helper/__pycache__/
+app/api-service/api/__pycache__/
+

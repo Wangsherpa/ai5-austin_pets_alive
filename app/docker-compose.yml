@@ -1,0 +1,15 @@
+--- 
+services: 
+  api-service: 
+    environment: 
+      DEV: 10
+    image: "wangsherpa/api-service:v2"
+    ports: 
+      - "8000:8000"
+  frontend-react: 
+    depends_on: 
+      - api-service
+    image: "wangsherpa/frontend-react:v2"
+    ports: 
+      - "80:80"
+version: "3"

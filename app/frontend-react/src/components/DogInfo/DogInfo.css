@@ -1,0 +1,57 @@
+.student-profile .card {
+  border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+}
+
+.student-profile .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.student-profile .card p {
+  font-size: 16px;
+  color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.card-body{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.table{
+  line-height: 2;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgb(72, 46, 223);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  justify-content: center;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
+
+.memo {
+  width: 80%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding: 15px;
+  border-radius: 8px;
+  text-indent: 100px;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
